@@ -1,0 +1,66 @@
+/* General styles for the body element */
+body {
+        margin: 0;
+        padding: 0;
+        background-color: #efeee7;
+        font-family: "Georgia", Times New Roman, Times, serif;
+        font-family: 18px;
+        line-height: 150%;
+		color: #333;
+		background-color: #efeee7;
+      }
+
+/* Styles for the header section */
+ header {
+ 	background-color: #333;
+ }     
+
+/* Styles the <h1> element */
+ h1 {
+ 	padding: 15px 0;
+ 	margin: 0px;
+ 	margin-bottom: 20px;
+ 	color: #eee;
+ 	font-size: 28px;
+ 	text-align: center;
+ }
+
+/* Styles the <h2> element */
+ h2 {
+ 	font-size: 24px;
+ }
+
+/* Styles for <div> with class container */
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}	
+
+/* Styles for the three sections of the page */
+#main-bio, 
+#contact-info,
+#bio-image {
+	float: left
+}
+
+/* Styles for <img> with id bio-image */
+#bio-image {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
+
+/* Styles for <div> with id main-bio */
+#main-bio {
+	width: 70%;
+}
+
+/* Styles for <div> with id contact-info */
+#contact-info {
+	width: 30%;	
+}
+
+/* Styles all <a> tags */
+a {
+	color: #d21034;
+}
